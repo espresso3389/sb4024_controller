@@ -1,0 +1,14 @@
+name: sb4024_controller
+description: An implementation of SB4024 controller
+version: 1.0.0
+repository: https://github.com/espresso3389/sb4024_controller
+
+environment:
+  sdk: ^3.0.0-399.0.dev
+
+dependencies:
+  http: ^0.13.5
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
