@@ -14,7 +14,7 @@ class SB4024Controller {
   Future<bool> loadPreset(int presetId) async {
     final url = baseHttpAddress.replace(path: '/datasend.php');
     final data = Uri.encodeFull(jsonEncode({
-      "param": {"no": 0}
+      "param": {"no": presetId}
     }));
     final res = await _client.post(
       url,
